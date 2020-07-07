@@ -1,4 +1,4 @@
-""" __doc__ """
+"""Calculate resolution times."""
 
 import csv
 from collections import namedtuple
