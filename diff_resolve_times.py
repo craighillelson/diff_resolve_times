@@ -6,6 +6,7 @@ from datetime import datetime
 
 INCIDENTS_DCT = {}
 
+
 def format_date(inc_datetime):
     """ formats dates """
     date_fmt = '%Y-%m-%d %H:%M:%S'
