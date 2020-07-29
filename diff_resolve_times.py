@@ -8,14 +8,14 @@ INCIDENTS_DCT = {}
 
 
 def format_date(inc_datetime):
-    """ formats dates """
+    """Format dates."""
     date_fmt = '%Y-%m-%d %H:%M:%S'
     inc_datetime = datetime.strptime(inc_datetime, date_fmt)
     return inc_datetime
 
 
 def open_csv(inc_file, dct):
-    """ open csv and populate a dictionary with its contents """
+    """Open csv and populate a dictionary with its contents."""
     with open(inc_file) as csv_file:
         f_csv = csv.reader(csv_file)
         column_headings = next(f_csv)
